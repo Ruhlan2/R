@@ -1,0 +1,22 @@
+ArrayList<String> isimler=new ArrayList<>();
+    isimler.add("Ali");
+       isimler.add("Mehmet");
+        isimler.add("Derin");
+            isimler.add("Aysegul");
+          
+             System.out.println(isimler.get(0));
+        System.out.println(isimler.size());
+    ArrayList<Integer> sayilar= new ArrayList<>();
+sayilar.add(10);
+    sayilar.add(25);
+        sayilar.add(5);
+            sayilar.add(7);
+                System.out.println(sayilar.get(2));
+                    System.out.println(sayilar.size());
+                        Integer[] sayilarim={10,20,30,40,50,60,70};
+                            ArrayList<Integer> sayilar1=new ArrayList<>();
+                                sayilar1.addAll(Arrays.asList(sayilarim));
+                            System.out.println(sayilar1.get(5));
+                        System.out.println(sayilar1.size());
+                        
+                    
