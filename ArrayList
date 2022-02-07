@@ -19,4 +19,85 @@ sayilar.add(10);
                             System.out.println(sayilar1.get(5));
                         System.out.println(sayilar1.size());
                         
-                    
+          //Second part
+          ArrayList<Integer> number=new ArrayList<>();
+    number.add(10);
+        number.add(20);
+            number.add(30);
+                number.add(40);
+                    number.add(50);
+                        System.out.println(number.get(4));
+                            System.out.println(number.size());
+                                Integer[] numberold={11,22,33,44,55};
+                                ArrayList<Integer> numbernew=new ArrayList<>();
+                                numbernew.addAll(Arrays.asList(numberold));
+                                numbernew.add(23);
+                                numbernew.add(33);
+                                numbernew.add(43);
+                                    //System.out.println(numbernew.get(3));
+                                    //System.out.println(numbernew.size());
+
+        ArrayList<String> letters=new ArrayList<>();
+            letters.add("Doktor");
+            letters.add("Yazilim muhendisligi");
+            letters.add("Ogretmen");
+            letters.add("Terzi");
+            letters.add("Hemsire");
+                ArrayList<String> kullanicilar=new ArrayList<>();
+                kullanicilar.add("Kullanici 1");
+                kullanicilar.add("Kullanici 2");
+                kullanicilar.add("Kullanici 3");
+                kullanicilar.add("Kullanici 4");
+                kullanicilar.add("Kullanici 5");
+                ArrayList<String> sifreler= new ArrayList<>();
+                kullanicilar.add("123asd");
+                kullanicilar.add("123456f");
+                kullanicilar.add("asd123");
+                kullanicilar.add("kk123");
+                kullanicilar.add("ghf45");
+
+                    boolean result=kullanicilar.contains("Kullanici 3");
+                        if(result)
+                        {
+                            System.out.println("Giris Basarili");
+                        }
+else
+System.out.println("Giris basarisiz");
+int r=kullanicilar.indexOf("Kullanici 31");
+    if(r!=-1)
+    {
+        System.out.println(r);
+    }
+//Eger arqument movcud deyilse result=-1 olacaq
+      else
+       System.out.println(r);          
+
+                                             
+//remove duplicated argument
+ for(String kullanici:kullanicilar)
+    System.out.println(kullanici);
+        kullanicilar.remove("Kullanici 1");
+        System.out.println("Kullanicilar son hal");
+            for(String kullanici:kullanicilar)
+                 System.out.println(kullanici);
+
+                 System.out.println("Ilk durum ="+kullanicilar.size());
+                    kullanicilar.clear();
+                        System.out.println("Son hal="+kullanicilar.size());
+                 
+
+  
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
